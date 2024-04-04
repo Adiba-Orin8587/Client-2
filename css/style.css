@@ -1,0 +1,62 @@
+.o {
+    color: rgb(20, 26, 47);
+    font-weight: 800;
+}
+
+.bg {
+    background-image: url(./../Image/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.b {
+    font-size: 60px;
+}
+
+.f {
+    font-weight: 400;
+}
+
+.ff {
+    font-weight: 500;
+}
+
+.pic {
+    width: 55%;
+}
+
+.pic-1 {
+    width: 55%;
+    margin-left: -34%;
+    height: fit-content;
+}
+
+.bg-1 {
+    background-image: url(./../Image/wave.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.b-img {
+    width: 100%;
+
+}
+
+.n {
+    font-weight: 500;
+    background-color: #adfe00;
+    border-radius: 100px;
+    font-size: 25px;
+}
+
+.l {
+    width: 15%;
+}
+
+@media only screen and (max-width: 767px) {
+    .pic-1 {
+        width: 63%;
+        margin-left: 3%;
+        height: 90px;
+    }
+}
